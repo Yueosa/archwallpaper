@@ -46,7 +46,7 @@
 在 `~/.config/hypr/hyprland.conf` 中添加：
 
 ```conf
-exec-once = bash $HOME/YeaSrine/Script/wall-cycle.sh loop
+exec-once = bash 脚本路径/wall-cycle.sh loop
 ```
 
 这会在 Hyprland 启动时，自动在后台运行壁纸轮换。
@@ -56,7 +56,7 @@ exec-once = bash $HOME/YeaSrine/Script/wall-cycle.sh loop
 同样在 `hyprland.conf` 中添加：
 
 ```conf
-bind = SUPER ALT, W, exec, bash -c "$HOME/YeaSrine/Script/wall-cycle.sh change"
+bind = SUPER ALT, W, exec, bash -c "脚本路径/wall-cycle.sh change"
 ```
 
 按下 Super + Alt + W 即可立刻切换到一张新的随机视频壁纸 ✨
